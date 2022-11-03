@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    max-width: 30%;
+    margin: 20px;
+}
+
+.hamburger-menu {
+    float: right;
+    margin: 20px;
+}
+
+.menu {
+    margin-top: 0px;
+    background: #0164A3;
+    opacity: 9;
+    padding: 40px;
+}
+
+.sub-menu {
+    position: relative;
+}
+
+nav ul {
+    color: white;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: .4rem;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav a:hover {
+    font-weight: 800;
+}
+
+.bg-photo {
+    display: flex;
+}
+
+.main {
+    background-image: url("/images/Bill_Holmes_Tower_Exterior-lores.png");
+    background-repeat: no-repeat;
+    background-color: white;
+}
