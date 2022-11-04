@@ -5,8 +5,10 @@
 }
 
 body {
-    background-color: beige;
     font-family: 'Montserrat', sans-serif;
+    background-image: url("images");
+    background-size: cover;
+    background-color: white;
 }
 
 header {
@@ -62,7 +64,5 @@ nav a:hover {
 }
 
 .main {
-    background-image: url("/images/Bill_Holmes_Tower_Exterior-lores.png");
-    background-repeat: no-repeat;
-    background-color: white;
+
 }
