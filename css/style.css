@@ -2,34 +2,40 @@
 
 * {
     box-sizing: border-box;
+    margin: auto;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url("images");
-    background-size: cover;
+    background: url("/images/Bill_Holmes_Tower_Exterior-lores.png");
+    background-repeat: no-repeat;
     background-color: white;
 }
 
-header {
+.masthead {
+    height: 120px;
+    padding: 30px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
-    max-width: 30%;
-    margin: 20px;
+    margin: 0;
+    max-width: 40%;
 }
 
 .hamburger-menu {
     float: right;
-    margin: 20px;
+    margin-right: 30px;
 }
 
-.menu {
+.main-menu {
     margin-top: 0px;
-    background: #0164A3;
-    opacity: 9;
+    background-color: #0164A3;
     padding: 40px;
+    opacity: 0.95
 }
 
 .sub-menu {
@@ -57,12 +63,4 @@ nav a {
 
 nav a:hover {
     font-weight: 800;
-}
-
-.bg-photo {
-    display: flex;
-}
-
-.main {
-
 }
